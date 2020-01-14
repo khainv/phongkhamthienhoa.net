@@ -30,7 +30,7 @@ const Homepage = () => {
     const reviews = [
         {
             avatar: 'https://ui-avatars.com/api/?name=Kim Ngân',
-            comment: `So với thông tin trên mạng thì khi đến tôi thấy phòng khám sạch sẽ, thoáng mát, bố trí hợp lý hơn nhiều, bác sĩ tận tình. Nhân viên cũng thoải mái, nói chuyện nhẹ nhàng. Cứ hợp thầy hợp thuốc thì bệnh gì cũng chữa được. Tôi cảm thấy rất hài lòng với dịch vụ của phòng khám đa khoa Thiện Hòa.`
+            comment: `So với thông tin trên mạng, khi đến tôi thấy phòng khám sạch sẽ, thoáng mát, bố trí hợp lý hơn nhiều, bác sĩ tận tình. Nhân viên cũng thoải mái, nói chuyện nhẹ nhàng. Cứ hợp thầy hợp thuốc thì bệnh gì cũng chữa được. Tôi cảm thấy rất hài lòng với dịch vụ của phòng khám đa khoa Thiện Hòa.`
         },
         {
             avatar: 'https://ui-avatars.com/api/?name=Hằng Đỗ',
