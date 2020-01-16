@@ -1,13 +1,18 @@
 import React, {useState} from 'react'
 import Link from '../components/Link'
 import Dimensions from '../components/Dimensions'
-
+import {Helmet} from "react-helmet/es/Helmet";
 const Header = () => {
     const [statusNavbar, setStatusNavbar] = useState(window.innerWidth > 768 ? true : false)
     const {width} = Dimensions()
     return (
         <>
             <header>
+                <Helmet>
+                    <script src="https://namkhoathienhoa.com/cdtop/js/addtop.js></script>
+                    <script src="https://namkhoathienhoa.com/AddLeft/js/addleft.js"></script>
+                    <script src="https://namkhoathienhoa.com/AddLeft/js/funs.js"></script>
+                </Helmet>
                 <div className="header__top">
                     <div className="wrapper">
                         <div className="social">
