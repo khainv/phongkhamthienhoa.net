@@ -8,11 +8,7 @@ const Header = () => {
     return (
         <>
             <header>
-                <Helmet>
-                    <script src="https://namkhoathienhoa.com/cdtop/js/addtop.js"></script>
-                    <script src="https://namkhoathienhoa.com/AddLeft/js/addleft.js"></script>
-                    <script src="https://namkhoathienhoa.com/AddLeft/js/funs.js"></script>
-                </Helmet>
+
                 <div className="header__top">
                     <div className="wrapper">
                         <div className="social">
