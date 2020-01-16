@@ -22,7 +22,6 @@ const Post = props => {
     const [author, setAuthor] = useState('Ẩn danh')
     const [doctor, setDoctor] = useState(undefined)
     const [loading, setLoading] = useState(true)
-
     const {width} = Dimensions()
 
     useEffect(() => {

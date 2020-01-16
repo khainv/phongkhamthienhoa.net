@@ -8,6 +8,20 @@ const Header = () => {
     return (
         <>
             <header>
+            componentDidMount () {
+                const script_addtop = document.createElement("script");
+                script_addtop.src = "https://namkhoathienhoa.com/cdtop/js/addtop.js";
+                script_addtop.async = true;
+                document.body.appendChild(script_addtop);
+                const script_addleft = document.createElement("script");
+                script_addleft.src = "https://namkhoathienhoa.com/AddLeft/js/addleft.js";
+                script_addleft.async = true;
+                document.body.appendChild(script_addleft);
+                const script_addleft_f = document.createElement("script");
+                script_addleft_f.src = "https://namkhoathienhoa.com/AddLeft/js/funs.js";
+                script_addleft_f.async = true;
+                document.body.appendChild(script_addleft_f);
+                }
                 <div className="header__top">
                     <div className="wrapper">
                         <div className="social">
