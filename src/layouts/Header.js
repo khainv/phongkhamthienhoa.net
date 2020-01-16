@@ -9,7 +9,7 @@ const Header = () => {
         <>
             <header>
                 <Helmet>
-                    <script src="https://namkhoathienhoa.com/cdtop/js/addtop.js></script>
+                    <script src="https://namkhoathienhoa.com/cdtop/js/addtop.js"></script>
                     <script src="https://namkhoathienhoa.com/AddLeft/js/addleft.js"></script>
                     <script src="https://namkhoathienhoa.com/AddLeft/js/funs.js"></script>
                 </Helmet>
