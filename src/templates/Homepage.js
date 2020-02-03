@@ -134,7 +134,7 @@ const Homepage = () => {
                 </div>
                 <div className="introduce__video">
                     <div className="wrapper--video">
-                        <img src="assets/images/hapk.jpg" alt="phongkham"/>
+                        <img src="https://api.phongkhamthienhoa.net/images/hapk.jpg" alt="phongkham"/>
                     </div>
                 </div>
             </section>
