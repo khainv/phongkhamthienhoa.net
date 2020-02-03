@@ -134,10 +134,7 @@ const Homepage = () => {
                 </div>
                 <div className="introduce__video">
                     <div className="wrapper--video">
-                        <iframe title='Video giới thiệu phòng khám đa khoa Thiện Hòa'
-                                width="560" height="315" src="https://www.youtube.com/embed/Cim88D3ZpWs" frameBorder="0"
-                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+                        <img src="assets/images/hapk.jpg" alt="phongkham"/>
                     </div>
                 </div>
             </section>
