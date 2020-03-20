@@ -15,11 +15,11 @@ const Footer = () => {
                 <div className="footer--top">
                     <div className="wrapper">
                         <div className="col">
-                            <a href="tel:02466739999">
+                            <a href="tel:1900252573">
                                 <img src="assets/images/icon_phone.png" alt=""/>
                                 <p>
                                     <span>Hotline 24/7</span>
-                                    <b>024.6673.9999</b>
+                                    <b>1900 25.25.73</b>
                                 </p>
                             </a>
                         </div>
@@ -56,15 +56,15 @@ const Footer = () => {
                             <p>Email: dakhoathienhoa@gmail.com</p>
                             <p>Địa chỉ: <span
                                 className="color--yellow">73 Trần Duy Hưng, Cầu Giấy - HN</span></p>
-                            <p>Bác sĩ tư vấn: <span className="color--yellow">024.6673.9999</span></p>
+                            <p>Bác sĩ tư vấn: <span className="color--yellow">1900 25.25.73</span></p>
 
                         </div>
                         <div className="col">
                             <p className="title--footer">liên kết mạng xã hội</p>
-                            <a href="https://fb.com/trungtamtuvansuckhoeTH" target="_blank" rel="noopener noreferrer"><img src="assets/images/fbt.png" alt=""/></a>
+                            <a href="{process.env.REACT_APP_LIVECHAT}" target="_blank" rel="noopener noreferrer"><img src="assets/images/fbt.png" alt=""/></a>
                             <a href="https://zalo.me/2058505886257207205" target="_blank" rel="noopener noreferrer"><img src="assets/images/zalot.png" alt=""/></a>
                             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img src="assets/images/youtubet.png" alt=""/></a>
-                            <a href="https://m.me/trungtamtuvansuckhoeTH" target="_blank" rel="noopener noreferrer"><img src="assets/images/messengert.png"
+                            <a href="{process.env.REACT_APP_LIVECHAT}" target="_blank" rel="noopener noreferrer"><img src="assets/images/messengert.png"
                                                                                                                          alt=""/></a>
                         </div>
                         <div className="col">
@@ -75,7 +75,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="footer--bottom">
-                    <span>Bản quyền thuộc về Phòng Khám Đa Khoa Thiện Hòa 2019</span>
+                    <span>Bản quyền thuộc về Phòng Khám Đa Khoa Thiện Hòa 2020</span>
                 </div>
             </footer>
             <Helmet>
