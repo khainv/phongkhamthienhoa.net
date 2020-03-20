@@ -61,11 +61,9 @@ const Footer = () => {
                         </div>
                         <div className="col">
                             <p className="title--footer">liên kết mạng xã hội</p>
-                            <a href="https://chat.thienhoa.org/lr/chatpre.aspx?id=kuz57484630&lng=en" target="_blank" rel="noopener noreferrer"><img src="assets/images/fbt.png" alt=""/></a>
+                            <a href="https://www.facebook.com/phongkhamdakhoaTH" target="_blank" rel="noopener noreferrer"><img src="assets/images/fbt.png" alt=""/></a>
                             <a href="https://zalo.me/2058505886257207205" target="_blank" rel="noopener noreferrer"><img src="assets/images/zalot.png" alt=""/></a>
-                            <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img src="assets/images/youtubet.png" alt=""/></a>
-                            <a href="https://chat.thienhoa.org/lr/chatpre.aspx?id=kuz57484630&lng=en" target="_blank" rel="noopener noreferrer"><img src="assets/images/messengert.png"
-                                                                                                                         alt=""/></a>
+                            <a href="https://www.m.me/phongkhamdakhoaTH" target="_blank" rel="noopener noreferrer"><img src="assets/images/messengert.png" alt=""/></a>
                         </div>
                         <div className="col">
                             <a href="https://www.google.com/maps/dir//Ph%C3%B2ng+Kh%C3%A1m+%C4%90a+Khoa+Thi%C3%AAn+H%C3%B2a/@21.0072811,105.7314523,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3135aca09f0b736d:0x740f10f026906546!2m2!1d105.8010152!2d21.0115175"
