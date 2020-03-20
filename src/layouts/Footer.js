@@ -61,10 +61,10 @@ const Footer = () => {
                         </div>
                         <div className="col">
                             <p className="title--footer">liên kết mạng xã hội</p>
-                            <a href="{process.env.REACT_APP_LIVECHAT}" target="_blank" rel="noopener noreferrer"><img src="assets/images/fbt.png" alt=""/></a>
+                            <a href="https://chat.thienhoa.org/lr/chatpre.aspx?id=kuz57484630&lng=en" target="_blank" rel="noopener noreferrer"><img src="assets/images/fbt.png" alt=""/></a>
                             <a href="https://zalo.me/2058505886257207205" target="_blank" rel="noopener noreferrer"><img src="assets/images/zalot.png" alt=""/></a>
                             <a href="https://youtube.com" target="_blank" rel="noopener noreferrer"><img src="assets/images/youtubet.png" alt=""/></a>
-                            <a href="{process.env.REACT_APP_LIVECHAT}" target="_blank" rel="noopener noreferrer"><img src="assets/images/messengert.png"
+                            <a href="https://chat.thienhoa.org/lr/chatpre.aspx?id=kuz57484630&lng=en" target="_blank" rel="noopener noreferrer"><img src="assets/images/messengert.png"
                                                                                                                          alt=""/></a>
                         </div>
                         <div className="col">
