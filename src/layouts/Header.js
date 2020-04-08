@@ -8,12 +8,11 @@ const Header = () => {
     return (
         <>
             <header>
-
                 <div className="header__top">
                     <div className="wrapper">
                         <div className="social">
                             <div className="social--facebook">
-                                <a href="https://fb.com/trungtamtuvansuckhoeTH" target="_blank" rel="noopener noreferrer"><img
+                                <a href="https://www.facebook.com/phongkhamdakhoaTH" target="_blank" rel="noopener noreferrer"><img
                                     src="assets/images/facebook.png" alt=""/></a>
                             </div>
                             <div className="social--zalo">
@@ -21,7 +20,7 @@ const Header = () => {
                                     src="assets/images/zalo.png" alt=""/></a>
                             </div>
                             <div className="social--messenger">
-                                <a href="https://m.me/trungtamtuvansuckhoeTH" target="_blank" rel="noopener noreferrer"><img
+                                <a href="https://www.facebook.com/phongkhamdakhoaTH" target="_blank" rel="noopener noreferrer"><img
                                     src="assets/images/messenger.png" alt=""/></a>
                             </div>
                             <div className="social--search">
@@ -33,8 +32,7 @@ const Header = () => {
                 <div className="header__center">
                     <div className="wrapper">
                         <div className="menu">
-                            <button onClick={() => setStatusNavbar(!statusNavbar)}><img src="assets/images/btn_menu.png"
-                                                                                        alt=""/></button>
+                            <button onClick={() => setStatusNavbar(!statusNavbar)}><img src="assets/images/btn_menu.png"alt=""/></button>
                         </div>
                         <div className="logo">
                             <Link to='/'>
@@ -152,16 +150,11 @@ const Header = () => {
                                         <li><Link to="/nam-da">Nấm da</Link></li>
                                         <li><Link to="/nam-mong">Nấm móng</Link></li>
                                         <li><Link to="/rung-toc-tung-vung">Rụng tóc từng vùng</Link></li>
-                                        {/*<li><Link to="/tay-not-ruoi">Tẩy nốt ruồi</Link></li>*/}
                                         <li><Link to="/to-dia">Tổ Đỉa</Link></li>
-                                        {/*<li><Link to="/tri-nam-da">Trị nám da</Link></li>*/}
-                                        {/*<li><Link to="/triet-long">Triệt lông</Link></li>*/}
                                         <li><Link to="/vay-ca">Vảy cá</Link></li>
                                         <li><Link to="/benh-vay-nen">Vảy Nến</Link></li>
                                         <li><Link to="/viem-da">Viêm da</Link></li>
                                         <li><Link to="/viem-nang-long">Viêm nang lông</Link></li>
-                                        {/*<li><Link to="/xoa-seo">Xóa sẹo</Link></li>*/}
-                                        {/*<li><Link to="/doi-moi">Đồi mồi</Link></li>*/}
                                     </ul>
                                 </li>
                                 <li className="nav-item">
