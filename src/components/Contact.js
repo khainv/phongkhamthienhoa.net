@@ -40,7 +40,7 @@ const Contact = () => {
 
     return (
         <div className="form-contact">
-            <form className="frmdangky">
+            <form onSubmit={handleSubmit}>
                 <div className="time">
                     <div className="title">thời gian làm việc</div>
                     <div className="clock">
@@ -63,15 +63,19 @@ const Contact = () => {
                 <p className='title'>đăng ký tư vấn</p>
                 {statusForm &&
                 <>
-                    <input name="hoten" type="text" placeholder='Họ và tên (*)'/>
-                    <input name="dienthoai" type="text" placeholder='Số điện thoại (*)' required/>
-
-                    <textarea name="mota" cols="30" rows="5"
-                              placeholder='Bạn đang có vấn đề thắc mắc cần từ vấn (*)'></textarea>
+                    <input name="fullname" type="text" placeholder='Họ và tên (*)' required value={name}
+                           onChange={e => setName(e.target.value)}/>
+                    <input name="phone" type="text" placeholder='Số điện thoại (*)' required value={phone}
+                           onChange={e => setPhone(e.target.value)}/>
+                    <input name="email" type="email" placeholder='Email' value={email}
+                           onChange={e => setEmail(e.target.value)}/>
+                    <textarea name="note" id="" cols="30" rows="5"
+                              placeholder='Bạn đang có vấn đề thắc mắc cần từ vấn (*)' required
+                              onChange={e => setNote(e.target.value)} value={note}></textarea>
                 </>
                 }
                 <p className="color--yellow">{messForm}</p>
-                {statusForm && <button type='button' id='dangky_home'>Đăng ký ngay</button>}
+                {statusForm && <button type='submit'>Đăng ký ngay</button>}
             </form>
         </div>
     )
