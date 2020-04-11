@@ -40,7 +40,7 @@ const FormReason = () => {
                     </div>
                 </div>
                 <span>Bạn đang có vấn đề thắc mắc liên hệ với chúng tôi qua Hotline <span
-                    className='color--red font-weight-bold'>024.6673.9999</span></span>
+                    className='color--red font-weight-bold'>1900 25.25.73</span></span>
             </div>
             <Contact/>
         </div>
