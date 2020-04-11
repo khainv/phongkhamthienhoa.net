@@ -33,7 +33,7 @@ const Contact = () => {
                 }
             })
             .catch(e => {
-                setMessForm('Có lỗi khi gửi. Gọi hotline 1900 25.25.73 để được giải đáp!')
+                setMessForm('Có lỗi khi gửi. Gọi hotline 024.6673.9999 để được giải đáp!')
                 console.error(e)
             })
     }
