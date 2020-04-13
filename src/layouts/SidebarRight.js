@@ -6,7 +6,7 @@ import Loading from "../components/Loading";
 import 'moment/locale/vi'
 
 moment.locale('vi')
-console.log('abc');
+
 const SidebarRight = () => {
     const [categories, setCategories] = useState([])
     const [childCategories, setChildCategories] = useState([])
@@ -57,9 +57,9 @@ const SidebarRight = () => {
             })
             .catch(e => console.error(e))
     }
-
+console.log('trc loading');
     if (loading) return <Loading/>
-
+console.log('sau loading');
     return (
         <>
             {categories.length > 0 &&
