@@ -12,7 +12,6 @@ const Layout = props => {
         document.body.removeChild(script);
     }
 }, []);
-
     return (
         <>
             <Header/>

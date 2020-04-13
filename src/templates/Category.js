@@ -143,6 +143,7 @@ const Category = props => {
                     <FormReason/>
                 </div>
                 <div className="col">
+                        <div className="toilatoi"></div>
                     <SidebarRight/>
                 </div>
             </div>
