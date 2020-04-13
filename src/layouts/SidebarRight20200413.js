@@ -6,7 +6,7 @@ import Loading from "../components/Loading";
 import 'moment/locale/vi'
 
 moment.locale('vi')
-console.log('abc');
+
 const SidebarRight = () => {
     const [categories, setCategories] = useState([])
     const [childCategories, setChildCategories] = useState([])
@@ -121,5 +121,4 @@ const SidebarRight = () => {
         </>
     )
 }
-
 export default SidebarRight
