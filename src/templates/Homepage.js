@@ -79,14 +79,20 @@ const Homepage = () => {
     if (loading) return <Loading></Loading>
     return (
         <Layout>
-            <Swiper style={{overflow: 'hidden'}}>
-                {[1, 2, 3, 4, 5, 6, 7, 8].map((image, index) => (
-                    <a href={process.env.REACT_APP_LIVECHAT} key={index}>
-                        <img src={`assets/images/banners/${width <= 480 ? 'mb' : 'pc'}/${image}.jpg`} alt=""
-                             className="img-fluid"/>
-                    </a>
-                ))}
-            </Swiper>
+            <div className="swiper-container">
+                <div className="swiper-wrapper">
+                    <div className="swiper-slide">
+                        <a href={process.env.REACT_APP_LIVECHAT}>
+                            <img src={`assets/images/banners/${width <= 480 ? 'mb' : 'pc'}/1.jpg`} alt="" className="img-fluid"/>
+                        </a>
+                    </div>
+                    <div className="swiper-slide">
+                        <a href={process.env.REACT_APP_LIVECHAT}>
+                            <img src={`assets/images/banners/${width <= 480 ? 'mb' : 'pc'}/2.jpg`} alt="" className="img-fluid"/>
+                        </a>
+                    </div>
+                </div>
+            </div>
             <section className="category--home">
                 <ul className="wrapper">
                     <li><Link to='/benh-nam-khoa'>
