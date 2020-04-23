@@ -92,6 +92,8 @@ const Homepage = () => {
                         </a>
                     </div>
                 </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
             <section className="category--home">
                 <ul className="wrapper">
