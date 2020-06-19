@@ -49,13 +49,10 @@ const Footer = () => {
                             <div className="title--footer">
                                 <img src="assets/images/logo_footer.png" alt="" className="img-fluid"/>
                             </div>
-                            <p className="title--slogan">"Thiện Hòa - Sự lựa chọn hoàn hảo cho sức khỏe của
-                                bạn"</p>
-                            <p>Giấy phép hoạt động cơ sở khám chữa bệnh số 06/SYT - GPHĐ/CL4 do Sở Y tế cấp
-                                phép.</p>
+                            <p className="title--slogan">"Thiện Hòa - Sự lựa chọn hoàn hảo cho sức khỏe của bạn"</p>
+                            <p>Giấy phép hoạt động cơ sở khám chữa bệnh số 06/SYT - GPHĐ/CL4 do Sở Y tế cấp phép.</p>
                             <p>Email: dakhoathienhoa@gmail.com</p>
-                            <p>Địa chỉ: <span
-                                className="color--yellow">73 Trần Duy Hưng, Cầu Giấy - HN</span></p>
+                            <p>Địa chỉ: <span className="color--yellow">73 Trần Duy Hưng, Cầu Giấy - HN</span></p>
                             <p>Bác sĩ tư vấn: <span className="color--yellow">1900 25.25.73</span></p>
 
                         </div>
