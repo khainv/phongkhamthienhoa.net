@@ -127,7 +127,7 @@ const Homepage = () => {
                 <div className="introduce__info">
                     <p className="introduce__info--title">GIỚI THIỆU PHÒNG KHÁM</p>
                     <p className="introduce__info--subtitle">ĐA KHOA THIỆN HÒA</p>
-                    <p className="introduce__info--content">Với tiêu chí “Tận tâm nhiệt tình - Ấm áp như gia đình” Phòng
+                    <p className="introduce__info--content">Với tiêu chí “tận tâm tận lực vì sức khỏe của bạn và gia đình” Phòng
                         khám đa khoa
                         Thiện Hòa là địa chỉ uy tín, được
                         đông đảo người dân lựa chọn thăm khám và điều trị bệnh. Được thành lập từ năm 2012 đến nay phòng
