@@ -76,7 +76,7 @@ const Footer = () => {
                     <span>Bản quyền thuộc về Phòng Khám Đa Khoa Thiện Hòa 2020</span>
                 </div>
             </footer>
-            /*<Helmet><script src={popup}></script></Helmet>*/
+            <%#<Helmet><script src={popup}></script></Helmet>%>
         </>
     )
 }
