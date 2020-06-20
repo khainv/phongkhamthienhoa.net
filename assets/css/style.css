@@ -387,6 +387,9 @@ img.aligncenter {
   height: 0;
   overflow: hidden;
 }
+.wrapper--video img{
+  max-width: 100%!important;
+}
 .wrapper--video iframe {
   position: absolute;
   top: 0;
