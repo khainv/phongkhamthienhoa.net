@@ -432,7 +432,9 @@ img {
     padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
-
+      img{
+        max-width: 100%!important;
+      }
     iframe {
       position: absolute;
       top: 0;
