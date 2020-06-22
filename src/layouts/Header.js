@@ -10,7 +10,7 @@ const Header = () => {
         popup1 = 'https://namkhoathienhoa.com/popup/js/popup.js';
         popup2 = 'https://namkhoathienhoa.com/popup/js/funs.js';
     } else {
-        popup1 = '<script src="https://namkhoathienhoa.com/popup/js/m_popup.js"></script>';
+        popup1 = 'https://namkhoathienhoa.com/popup/js/m_popup.js';
     }
     return (
         <>
