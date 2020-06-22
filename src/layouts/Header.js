@@ -26,9 +26,6 @@ const Header = () => {
     return (
         <>
             <header>
-                <div>
-                {popupk()}
-                </div>
                 <div className="header__top">
                     <div className="wrapper">
                         <div className="social">
