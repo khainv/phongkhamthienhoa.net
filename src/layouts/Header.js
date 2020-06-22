@@ -5,19 +5,29 @@ import {Helmet} from "react-helmet/es/Helmet";
 const Header = () => {
     const [statusNavbar, setStatusNavbar] = useState(window.innerWidth > 768 ? true : false)
     const {width} = Dimensions()
-    var popup1='',popup2='';
-    if (window.innerWidth >= 576) {
-        popup1 = 'https://namkhoathienhoa.com/popup/js/popup.js';
-        popup2 = 'https://namkhoathienhoa.com/popup/js/funs.js';
-    } else {
-        popup1 = 'https://namkhoathienhoa.com/popup/js/m_popup.js';
+
+    const popupk = function () {
+        var popup1='',popup2='';
+        if (window.innerWidth >= 576) {
+            popup1 = 'https://namkhoathienhoa.com/popup/js/popup.js';
+            popup2 = 'https://namkhoathienhoa.com/popup/js/funs.js';
+        } else {
+            popup1 = 'https://namkhoathienhoa.com/popup/js/m_popup.js';
+        }
+        const script = document.createElement("script");
+        script.src = popup1;
+        script.async = true;
+        document.body.appendChild(script);
+        const script2 = document.createElement("script");
+        script2.src = popup2;
+        script2.async = true;
+        document.body.appendChild(script2);
     }
     return (
         <>
             <header>
                 <div>
-                    <script src={popup1}/>
-                    <script src={popup2}/>
+                {popupk()}
                 </div>
                 <div className="header__top">
                     <div className="wrapper">
