@@ -6,7 +6,8 @@ const Footer = () => {
     if (window.innerWidth >= 576) {
         popup = '/popup_pc/js/popup.js'
     } else {
-        popup = '/popup_mb/js/popup.js'
+        pop
+        up = '/popup_mb/js/popup.js'
     }
 
     return (
